@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/Wstunes/SwiftyJWT"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Wstunes" => "wangshuogr@qq.com" }
-  s.platform     = :ios, "8.0"
+  s.platform     = {:ios => "8.0", :watchos => "5.0"}
   s.source       = { :git => "https://github.com/Wstunes/SwiftyJWT.git", :tag => s.version }
   s.source_files = 'Sources/**/*.swift'
   s.dependency 'SwiftyCrypto', '~> 0.0.1'
